@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * this function for printing using puts
- */
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success)
+ *     */
 
 
 int main(void)
