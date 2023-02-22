@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,7 +6,6 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-
 {
 	char str[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	int i;
