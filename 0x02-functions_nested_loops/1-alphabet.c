@@ -7,12 +7,11 @@
  */
 int main(void)
 {
-	char str[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	int i;
 
-	for (i = 0; i < 8; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		_putchar(str[i]);
+		_putchar(i);
 	}
 	putchar('\n');
 }	
