@@ -1,6 +1,5 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Determines if a number is positive, negative or zero.
@@ -14,7 +13,7 @@ int main(void)
 	
 	for (i = 0; i < 8; i++)
 	{
-  		putchar(str[i]);
+  		_putchar(str[i]);
 	}
 	putchar('\n');
 	return 0;
