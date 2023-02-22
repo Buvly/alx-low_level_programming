@@ -3,7 +3,7 @@
 
 /**
  * _islower - function prints only if  alphabet is in lowercase.
- *
+ * c is a single input letter
  * Return: Always 0 (Success)
  */
 int _islower(int c)
