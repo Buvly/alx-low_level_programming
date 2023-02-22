@@ -7,7 +7,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+
 {
+	
 	char str[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	int i;
 
@@ -16,5 +18,6 @@ int main(void)
 		_putchar(str[i]);
 	}
 	putchar('\n');
-	return 0;
+	return (0);
+
 }	
