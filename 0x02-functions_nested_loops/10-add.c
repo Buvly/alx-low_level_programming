@@ -3,7 +3,8 @@
 
 /**
  * add -  a function that prints the addition of 2 numbers
- * a = first num, b = second, r = result
+ * @a = first num
+ * @ b = second, r = result
  * Return: summation of 2 numbers
  */
 int add(int a, int b)
