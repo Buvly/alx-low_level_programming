@@ -6,9 +6,9 @@
  * @c: is a single input letter
  * Return: 1 if c is alphabet lower and uper and 0 if not
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
