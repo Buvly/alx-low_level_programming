@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* print_numbers - print numbers from 0 to 9 except 2 and 4 followed by new line.
+* print_most_numbers - print numbers from 0 to 9 except 2 and 4 followed by new line.
 * Return: No return.
 */
 void print_most_numbers(void)
@@ -11,11 +11,7 @@ void print_most_numbers(void)
 
 	for (i = 48; i < 58; i++)
 	{
-		if (i == 50 || i == 52)
-		{
-			continue;
-		}
-		else
+		if (i != 50 && i != 52)
 		{
 			_putchar(i);
 		}
