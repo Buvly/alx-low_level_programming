@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 * main -  prints numbers from 1 to 100 and for multiples of 3 prints Fizz and multiples of 5 prints Buzz if both prints FizzBuzz.
