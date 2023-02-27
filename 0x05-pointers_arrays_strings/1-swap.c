@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * 1-swap.c - swaps the values of two integers.
+ * swap_int - swaps the values of two integers.
  * @a: first int
  * @b: second int
  * Return: NULL
