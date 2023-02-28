@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_rev - reverses a string..
+ * rev_string - reverses a string.
  * @s:input string
  * Return: NULL
  */
