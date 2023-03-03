@@ -5,6 +5,7 @@
  * _strncat - concat 2 strings with number of words,
  * @dest: destination string.
  * @src: source string.
+ * @n: input integer
  * Return: the pointer to dest.
  */
 char *_strncat(char *dest, char *src, int n)
