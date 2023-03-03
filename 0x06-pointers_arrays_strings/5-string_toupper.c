@@ -4,7 +4,7 @@
 /**
  * string_toupper - change all lower case to upper.
  * @s: input string.
- * Return: the pointer to string.
+ * Return: s.
  */
 char *string_toupper(char *s)
 {
@@ -13,7 +13,7 @@ char *string_toupper(char *s)
 	i = 0;
 	while (s[i] != '\0')
 	{
-		if (s[i] >= 'a') && (s[i] <= 'z')
+		if (s[i] >= 'a' && s[i] <= 'z')
 	  	{
 			s[i]  = s[i] - 32;
 		}
