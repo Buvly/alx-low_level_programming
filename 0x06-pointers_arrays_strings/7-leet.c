@@ -6,7 +6,6 @@
  * @s: input string.
  * Return: the pointer to dest.
  */
-
  char *leet(char *s)
 {
 	int count = 0, i;
