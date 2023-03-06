@@ -3,7 +3,7 @@
 
 /**
  * _memset - function fills the first n bytes of the memory
- * @*s: The pointer string
+ * @s: The pointer string
  * @b : char to be printed
  * @n : number of memory
  * Return: s
